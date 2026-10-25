@@ -1,0 +1,161 @@
+*{
+   font-family: 'Roboto';
+}
+#navbar img{
+     width: 50px;
+}
+#navbar img{
+   width: 50px;
+}
+body{
+   min-height: 100vh;
+   padding-bottom: 100px;
+   position: relative;
+}
+header{
+   background-color: #e4e1e9;
+   border-bottom: 1px solid #e3e3e3;
+}
+.container-fluid{
+   padding: 0;
+}
+.btn-primary{
+   background-color: #f2a340;
+   border: 2px solid #c28008;
+}
+
+.btn-primary:hover{
+   background-color: #c28008;
+   border: 2px solid #f2a340;
+}
+.row{
+   margin: 0;
+}
+#navbar{
+   padding: 5px 0;
+   background-color: #e4e1e9;
+   justify-content: space-between;
+}
+#navbar a{
+   color: #000;
+   font-weight: bold;
+   font-size: 18px;
+}
+#navbar a:hover{
+   color: #f2a340;
+}
+.search-container{
+   background-position: center;
+   background-size: cover;
+   height: 400px;
+   padding: 0;
+   text-align: center;
+}
+#search-container h1{
+   color: #c28008;
+   font-weight: 900;
+   margin-bottom: 40px;
+}
+#search-container input{
+   width: 50%;
+   margin: 0 auto;
+   background-color: #fff;
+   border: 2px solid #c28008;
+   color: #000;
+}
+#search-container input::placeholder{
+   color: #000;
+}
+#search-container form{
+   margin-bottom: 40px;
+   width: 50%;
+   margin: 0 auto;
+
+}
+#events-container{
+   margin-top: 40px;
+   padding: 50px;
+}
+#events-container h2{
+   color: #c28008;
+   font-weight: 900;
+   margin-bottom: 40px;
+}
+#events-container .card{
+   margin-bottom: 30px;
+   flex: 1 1 24%;
+   max-width: 25%;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 5px; 
+}
+
+#events-container subtitle{
+   color: #c28008;
+   font-weight: 900;
+}#cards-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+#events-container img{
+   width: 100%;
+   border-radius: 10px;
+}
+.card.card-date{
+   font-size: 12px;
+   color: #ccc;
+}
+.card .card-title{
+   color: #212121;
+   font-size: 20px;
+   font-weight: hold;
+   margin-bottom: 30px;
+}
+.card-participants{
+   font-size: 14px;
+   color: #757575;
+}
+footer{
+   text-align: center;
+   background-color:#fff;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+footer p{
+   margin-bottom: 0;
+
+}
+#image-container,
+#info-container{
+   margin-top: 38px;
+}
+#image-container img{
+   border-radius: 10px;
+
+}
+#info-container h1{
+   font-size: 36px;
+   font-weight: 900;
+}
+#info-container h3,
+#description-container{
+   font-size: 20px;
+   font-weight: bold;
+}
+#info-container ion-icon{
+   font-size: 20px;
+   color: #c28008;
+   margin-right: 5px;
+}
+#info-container #evet-submit{
+   margin: 20px 0;
+}
+#items-list{
+   list-style: none;
+   padding-left: 0;
+}
+#items-list li{
+   display: flex;
+}
